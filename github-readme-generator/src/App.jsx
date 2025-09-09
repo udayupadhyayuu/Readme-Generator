@@ -495,7 +495,7 @@ const App = () => {
     if (typingSvg && typingSvg.lines && typingSvg.lines.length > 0) {
       const nonEmptyLines = typingSvg.lines.filter(line => line.trim() !== '');
       if (nonEmptyLines.length > 0) {
-        const displayLines = nonEmptyLines.length > 0 ? nonEmptyLines : ["abhijeetBhale/Readme-Generator"];
+        const displayLines = nonEmptyLines.length > 0 ? nonEmptyLines : ["udayupadhyayuu/Readme-Generator"];
         const linesParam = `&lines=${displayLines.map(encodeURIComponent).join(";")}`;
         const svgUrl = `https://readme-typing-svg.herokuapp.com?font=${encodeURIComponent(typingSvg.font)}&size=${typingSvg.size}&pause=1000&color=${typingSvg.color.replace("#", "")}&width=435${linesParam}&center=true&vCenter=true&repeat=${typingSvg.repeat}`;
 
@@ -636,8 +636,8 @@ const App = () => {
 
     // Add trademark/footer
     markdown += `\n---\n`;
-    markdown += `<p align="center">This README was generated with ❤️ by <a href="https://github.com/abhijeetBhale/Readme-Generator" target="_blank"><img src="https://img.shields.io/badge/GitHub%20Readme%20Generator-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Readme Generator" /></a></p>\n`;
-    markdown += `<p align="center">Developed by <b>Abhijeet Bhale</b></p>\n`;
+    markdown += `<p align="center">This README was generated with ❤️ by <a href="https://github.com/udayupadhyayuu/Readme-Generator" target="_blank"><img src="https://img.shields.io/badge/GitHub%20Readme%20Generator-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Readme Generator" /></a></p>\n`;
+    markdown += `<p align="center">Developed by <b>Uday Upadhyay</b></p>\n`;
 
     return markdown;
   };
@@ -1177,7 +1177,7 @@ const App = () => {
       )}
       <footer className="text-center py-4" id='footer'>
         <p className="text-gray-600">
-          Made with ❤️ by <a href="https://github.com/abhijeetBhale" target="_blank" className="text-blue-500 hover:underline">Abhijeet Bhale</a>
+          Made with ❤️ by <a href="https://github.com/udayupadhyayuu" target="_blank" className="text-blue-500 hover:underline">Uday Upadhyay</a>
         </p>
       </footer>
     </div>

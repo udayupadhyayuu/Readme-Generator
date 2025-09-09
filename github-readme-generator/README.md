@@ -7,6 +7,7 @@ A comprehensive web application to help you generate professional and customizab
 ## ✨ Features
 
 ### Core Features
+
 - Interactive form to input project details
 - Live preview of your README as you edit
 - Supports badges, images, and markdown formatting
@@ -17,6 +18,7 @@ A comprehensive web application to help you generate professional and customizab
 ### 🚀 GitHub Profile Enhancements
 
 #### 📊 Analytics & Statistics
+
 - **GitHub Stats Card** - Display your GitHub statistics with customizable themes
 - **Most Used Languages** - Show your top programming languages
 - **Contribution Graph** - Visualize your GitHub activity
@@ -25,15 +27,18 @@ A comprehensive web application to help you generate professional and customizab
 - **GitHub Trophies** - Display your GitHub achievements
 
 #### 📱 Social Media Integration
+
 - **Social Media Badges** - Support for 15+ social platforms
 - **Customizable Social Links** - Easy integration with your social profiles
 
 #### 🛠️ Skills & Technologies
+
 - **Technology Icons** - 100+ programming languages and frameworks
 - **Categorized Skills** - Organize skills by category
 - **Visual Skill Display** - Beautiful icon-based skill representation
 
 ## 🆕 New UI Features
+
 - Modern animated buttons for all actions (add line, copy, generate)
 - Tooltips for helpful guidance (e.g., font selection)
 - Improved color picker and preview window for animated SVG
@@ -44,34 +49,38 @@ A comprehensive web application to help you generate professional and customizab
 ✅ **GitHub Trophy** - Displays GitHub achievements  
 ✅ **GitHub Profile Stats Card** - Shows GitHub statistics  
 ✅ **Top Skills** - Displays most used languages  
-✅ **GitHub Streak Stats** - Shows contribution streaks  
+✅ **GitHub Streak Stats** - Shows contribution streaks
 
 ## 🚀 Getting Started
 
 1. **Clone the repository:**
-    ```bash
-    git clone https://github.com/your-username/github-readme-generator.git
-    cd github-readme-generator
-    ```
+
+   ```bash
+   git clone https://github.com/your-username/github-readme-generator.git
+   cd github-readme-generator
+   ```
 
 2. **Install dependencies:**
-    ```bash
-    npm install
-    ```
+
+   ```bash
+   npm install
+   ```
 
 3. **Start the development server:**
-    ```bash
-    npm run dev
-    ```
+
+   ```bash
+   npm run dev
+   ```
 
 4. Open [http://localhost:5173](http://localhost:5173) to view the app in your browser.
 
 5. Screen Shots ![Readme Generator GitHub](https://github.com/abhijeetBhale/Portfolio/blob/058af283a0133c9718137c82755af89a34f5b30b/assets/readme-generator-ss.png)
-![Readme Generator GitHub](https://github.com/abhijeetBhale/Portfolio/blob/058af283a0133c9718137c82755af89a34f5b30b/assets/readme-generator-ss2.png)
+   ![Readme Generator GitHub](https://github.com/abhijeetBhale/Portfolio/blob/058af283a0133c9718137c82755af89a34f5b30b/assets/readme-generator-ss2.png)
 
 ## 📖 How to Use
 
 ### Basic Setup
+
 1. Fill in your project details in the form
 2. Add your GitHub username
 3. Select which GitHub profile enhancements you want
@@ -79,6 +88,7 @@ A comprehensive web application to help you generate professional and customizab
 5. Generate and download your README
 
 ### Using the Animated Typing SVG
+
 1. Go to the Animated Typing SVG section
 2. Add multiple lines of text (each line will animate in order)
 3. Customize the font (hover the info icon for Google Fonts link), color, and size
@@ -99,6 +109,7 @@ A comprehensive web application to help you generate professional and customizab
 Contributions are welcome! Please open an issue or submit a pull request.
 
 ### Development
+
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
 3. Commit your changes (`git commit -m 'Add some amazing feature'`)

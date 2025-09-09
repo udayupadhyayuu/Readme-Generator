@@ -11,7 +11,7 @@ const Navbar = () => {
       <div className="flex gap-4 items-center" id='git-btns'>
         <DemoVideo />
         <a
-          href="https://github.com/abhijeetBhale/Readme-Generator"
+          href="https://github.com/udayupadhyayuu/Readme-Generator"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-2 bg-white text-gray-800 px-4 py-2 rounded-full shadow-md hover:bg-gray-100 hover:scale-105 transition-all duration-200"

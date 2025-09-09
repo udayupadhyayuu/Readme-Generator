@@ -24,29 +24,36 @@ This guide will help you set up EmailJS to receive email notifications when user
 ```html
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <title>New README Generated</title>
-</head>
-<body>
+  </head>
+  <body>
     <h2>New README Generated/Copied</h2>
-    
+
     <div style="margin: 20px 0;">
-        <strong>User Name:</strong> {{from_name}}<br>
-        <strong>GitHub Username:</strong> {{github_username}}<br>
-        <strong>Action:</strong> {{action_type}}<br>
-        <strong>Timestamp:</strong> {{timestamp}}
+      <strong>User Name:</strong> {{from_name}}<br />
+      <strong>GitHub Username:</strong> {{github_username}}<br />
+      <strong>Action:</strong> {{action_type}}<br />
+      <strong>Timestamp:</strong> {{timestamp}}
     </div>
-    
+
     <h3>README Content:</h3>
-    <div style="background: #f5f5f5; padding: 15px; border-radius: 5px; font-family: monospace; white-space: pre-wrap; max-height: 500px; overflow-y: auto;">
-        {{readme_content}}
+    <div
+      style="background: #f5f5f5; padding: 15px; border-radius: 5px; font-family: monospace; white-space: pre-wrap; max-height: 500px; overflow-y: auto;"
+    >
+      {{readme_content}}
     </div>
-    
-    <div style="margin-top: 20px; padding: 10px; background: #e8f4fd; border-radius: 5px;">
-        <p><strong>Note:</strong> This README was generated using your README Generator tool. 
-        You can review it and add the user to your showcase section if appropriate.</p>
+
+    <div
+      style="margin-top: 20px; padding: 10px; background: #e8f4fd; border-radius: 5px;"
+    >
+      <p>
+        <strong>Note:</strong> This README was generated using your README
+        Generator tool. You can review it and add the user to your showcase
+        section if appropriate.
+      </p>
     </div>
-</body>
+  </body>
 </html>
 ```
 
@@ -65,16 +72,16 @@ This guide will help you set up EmailJS to receive email notifications when user
 
 ```javascript
 const EMAIL_CONFIG = {
-  serviceId: 'YOUR_ACTUAL_SERVICE_ID', // From Step 2
-  templateId: 'YOUR_ACTUAL_TEMPLATE_ID', // From Step 3
-  userId: 'YOUR_ACTUAL_USER_ID', // From Step 4
+  serviceId: "YOUR_ACTUAL_SERVICE_ID", // From Step 2
+  templateId: "YOUR_ACTUAL_TEMPLATE_ID", // From Step 3
+  userId: "YOUR_ACTUAL_USER_ID", // From Step 4
   adminEmails: [
-    'abhijeetbhale7@gmail.com', // Your main email
-    'team@yourcompany.com', // Team email (optional)
-    'showcase@yourcompany.com', // Showcase review email (optional)
-    'admin@yourcompany.com' // Admin email (optional)
+    "udayupadhyay@gmail.com", // Your main email
+    "team@yourcompany.com", // Team email (optional)
+    "showcase@yourcompany.com", // Showcase review email (optional)
+    "admin@yourcompany.com", // Admin email (optional)
     // Add as many email addresses as you need
-  ]
+  ],
 };
 ```
 
@@ -107,6 +114,7 @@ npm install
 ## Email Content
 
 Each email will include:
+
 - User's name (if provided)
 - GitHub username (if provided)
 - Action type (generated/copied)
@@ -118,7 +126,7 @@ Each email will include:
 
 You might want to add these types of email addresses:
 
-1. **Primary Admin**: `abhijeetbhale7@gmail.com` (your main email)
+1. **Primary Admin**: `udayupadhyay.uu@gmail.com` (your main email)
 2. **Team Lead**: `team@yourcompany.com` (for team coordination)
 3. **Showcase Manager**: `showcase@yourcompany.com` (for showcase decisions)
 4. **Technical Lead**: `tech@yourcompany.com` (for technical review)
@@ -141,8 +149,9 @@ You might want to add these types of email addresses:
 ## Customization
 
 You can modify the email template to include:
+
 - Additional user information
 - Different formatting
 - Links to user profiles
 - Custom branding
-- Team-specific instructions 
+- Team-specific instructions

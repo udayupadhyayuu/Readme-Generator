@@ -3,11 +3,11 @@ export const templates = [
     name: 'Minimalist',
     // description: 'A clean and simple template focusing on the essentials. Perfect for getting started or for those who prefer a straightforward layout.',
     data: {
-      name: 'Abhijeet Bhale',
+      name: 'Uday Kumar Upadhyay',
       tagline: 'A passionate frontend developer from India',
       description: 'I am a self-taught frontend developer with a passion for creating beautiful and functional web applications. I am always looking for new challenges and opportunities to learn and grow as a developer.',
       work: [
-        { projectName: 'Readme Generator', projectLink: 'https://github.com/abhijeetBhale/Readme-Generator' },
+        { projectName: 'Readme Generator', projectLink: 'https://github.com/udayupadhyayuu/Readme-Generator' },
         { projectName: '', projectLink: '' },
         { projectName: '', projectLink: '' },
         { info: 'React, Vite, and Tailwind CSS' },
@@ -20,8 +20,8 @@ export const templates = [
         'Frontend': ['React', 'Vite', 'Tailwind CSS', 'Bootstrap'],
       },
       socials: {
-        github: 'abhijeetBhale',
-        linkedin: 'in/abhijeet-bhale-5b1b3b1b3/',
+        github: 'udayupadhyayuu',
+        linkedin: 'in/udayupadhyay/',
       },
       analytics: {
         showStatsCard: true,

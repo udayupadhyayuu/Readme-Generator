@@ -240,7 +240,7 @@ const SocialsSection = ({ formData, setFormData }) => {
                   {/* <h2 className="text-xl font-bold mb-3 mt-2 w-full tracking-tight text-gray-800 drop-shadow-sm">Support Me</h2> */}
                   {/* Buy Me a Coffee Official Widget */}
                   <iframe
-                    src="https://buymeacoffee.com/widget/page/abhijeetBhale"
+                    src="https://buymeacoffee.com/widget/page/udayupadhyay.uu"
                     title="Buy Me a Coffee"
                     style={{ border: 'none', width: '100%', minHeight: '500px', borderRadius: '12px', background: 'transparent' }}
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

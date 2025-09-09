@@ -10,7 +10,7 @@ const AboutMeSection = () => {
       <div className="mb-6" >
         <h3 className="text-xl font-semibold mb-2">How do I create a profile README?</h3>
         <ol className="list-decimal list-inside space-y-1 text-gray-700" id="about-me-section-1">
-           <p className="font-mono bg-gray-100 px-1 rounded">The profile README is created by creating a new repository that's the same name as your username. For example, my GitHub username is <strong>abhijeetBhale</strong> so I created a new repository with the name <strong>abhijeetBhale</strong>. Note: at the time of this writing, in order to access the profile README feature, the letter-casing must match your GitHub username.</p> 
+           <p className="font-mono bg-gray-100 px-1 rounded">The profile README is created by creating a new repository that's the same name as your username. For example, my GitHub username is <strong>udayUpadhyay</strong> so I created a new repository with the name <strong>udayUpadhyay</strong>. Note: at the time of this writing, in order to access the profile README feature, the letter-casing must match your GitHub username.</p> 
           <li>
           Create a new repository with the same name (including casing) as your GitHub <span className="font-mono bg-gray-100 px-1 rounded"> <a href="https://github.com/new" target="_blank" rel="noopener noreferrer">https://github.com/new</a></span>.
           </li>

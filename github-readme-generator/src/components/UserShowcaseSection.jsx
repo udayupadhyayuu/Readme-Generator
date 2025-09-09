@@ -13,8 +13,8 @@ const UserShowcaseSection = () => {
       date: "2025-06-30"
     },
     {
-      name: "Abhijeet Bhale",
-      githubUsername: "abhijeetBhale",
+      name: "Uday Upadhyay",
+      githubUsername: "udayupadhyayuu",
       date: "2025-06-30"
     },
     {
